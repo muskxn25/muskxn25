@@ -47,6 +47,12 @@
 
 ---
 
+## 🧩 Competitive Programming
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Muskan-orange?logo=leetcode)](https://leetcode.com/muskan252014)
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/muskan252014)
+
 📫 **Let's connect!**  
 📍 Baltimore, MD | ✉️ muskxn25@gmail.com | 📞 +1 410-977-4534
 
