@@ -49,7 +49,7 @@
 
 ## 🧩 Competitive Programming
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Muskan-orange?logo=leetcode)](https://leetcode.com/muskan252014)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Muskan-orange?logo=leetcode)](https://leetcode.com/Muskxn)
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/muskan252014)
 
