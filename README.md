@@ -116,7 +116,7 @@ Graduated with **Distinction**
 
 ---
 
-## ✨ Animated Stats  
+## 📊 Code & Contribution Insights
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=muskxn25&theme=tokyonight" alt="GitHub Streak" />
