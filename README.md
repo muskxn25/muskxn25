@@ -19,99 +19,100 @@
 ---
 
 ## 🚀 About Me  
-
 I'm a **multi-disciplinary builder** working at the intersection of **Robotics, Machine Learning, and Language**.  
 My work spans **intent prediction**, **LLM-driven simulation**, **real-time agents**, and **scalable full-stack systems**.
 
 I care about building systems that are:
 
-- ⚙️ **Reproducible**
-- 🧭 **Intent-aware**
-- 📊 **Evaluation-rich**
+- ⚙️ **Reproducible**  
+- 🧭 **Intent-aware**  
+- 📊 **Evaluation-rich**  
 - ⚡ **Fast & deployable in real environments**
 
 ---
 
-## 🧠 Skills & Project Highlights  
+## 🧠 Skills & Highlights  
 
 ### 🤖 Robotics + Intent Prediction  
-- **Intentionality Dataset (in-prep):** Early goal inference from partial video/steps (10/30/50/70%) using **transformer encoders + YOLO scene trimming**.  
-- Grounded language understanding + multimodal alignment for human–robot interaction (HRI).
-
----
+- Designing intent inference pipelines using **transformer encoders + YOLO scene trimming**  
+- Multi-modal reasoning for human–robot interaction (HRI)
 
 ### 🛣️ LLM × Autonomous Driving (CARLA)  
-- **LCARS Pipeline:**  
-  LLM Prompt ➜ Python Simulation Script ➜ Reproducible CARLA crash video.  
-  Each run produces **scenario.txt, script.py, video.mp4, meta.yaml** with fixed seeds for reliable experiments.
+- Built LCARS: **LLM → Python Simulation Script → CARLA crash video**  
+- Fully reproducible with artifacts (`scenario.txt`, `script.py`, `video.mp4`, `meta.yaml`)
+
+### 🎧 Real-Time AI Agents  
+- On-device ASR + diarization (Whisper + PyAnnote)  
+- Topic threading, action-item extraction, meeting analytics
+
+### ⚙️ Full Stack / DevOps  
+- React/TS, FastAPI, ETL pipelines  
+- CI/CD (GitHub Actions), Docker, monitoring, testing harnesses
 
 ---
 
-### 🎧 Real-Time Agents  
-- **Ramblytics (NexSys Labs):**  
-  On-device **Whisper + PyAnnote** stack for live diarization, topic threading, and action-item extraction over long meetings.
+## 💼 Work Experience  
+
+### 🔹 **Graduate Researcher — Interactive Robotics & Language Lab (IRAL), UMBC**  
+**Aug 2025 – Present**  
+- Co-developing the **Intentionality dataset** for grounded intent prediction  
+- Running model evaluations on GPT-4/5, Claude, Llama, EMMA  
+- Building annotation pipelines, consistency checks, and prompt-based inference tools  
+- Focus on **grounded language understanding** + **embodied reasoning**
 
 ---
 
-### 🖥️ Full Stack / DevOps  
-- Built ETL + visualization systems for monitoring and analytics.  
-- Testing harnesses with **Playwright/Cypress** and WebSocket smoke tests.  
-- Dockerized microservices with **GitHub Actions** CI/CD.
+### 🔹 **AI Engineer — NexSys Labs (Ramblytics)**  
+**Aug 2025 – Dec 2025**  
+- Built **Ramblytics**, a real-time meeting intelligence system  
+- Implemented Whisper + PyAnnote ASR/diarization pipelines  
+- Designed topic segmentation + action-item extraction engine  
+- Added Docker, CI/CD, logging, monitoring, and testing harnesses
+
+---
+
+### 🔹 **Research Assistant — Autonomous Driving (CARLA), UMBC VLSI Lab**  
+**May 2025 – Aug 2025**  
+- Developed automated crash-scenario simulation pipeline in CARLA  
+- Converted LLM prompts → Python scripts → deterministic simulation videos  
+- Generated datasets for situational reasoning and safety evaluation in AVs  
+- Built support for weather/time-of-day variations, seeds, multi-vehicle collisions
+
+---
+
+### 🔹 **Data Engineer — TechBible (Remote, UK)**  
+**Jan 2024 – Dec 2024**  
+- Designed RAG-based resume–job matching pipelines  
+- Built embedding search + entity extraction systems  
+- Integrated Snowflake + AWS pipelines for analytics  
+- Developed a Chrome extension for skill insights using NLP
+
+---
+
+## 🎓 Education  
+
+### 🎓 **M.S. in Computer Science — University of Maryland, Baltimore County (UMBC)**  
+**2024 – 2026 (Expected)**  
+**Focus:** Robotics, AI/ML, LLM Systems, Embodied AI  
+**GPA:** 3.4  
+
+---
+
+### 🎓 **B.S. in Information Technology — CHARUSAT University, India**  
+**2019 – 2024**  
+Graduated with **Distinction**  
 
 ---
 
 ## 💼 Tech Stack  
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,fastapi,flask,nodejs,postgres,mongodb,redis,aws,docker,git,githubactions" />
 </p>
 
 **Languages:** Python, TypeScript, SQL, JavaScript, R  
-**Frameworks:** FastAPI, React, Next.js, Flask, Express  
-**AI/ML:** PyTorch, Transformers, OpenCV, YOLO, ONNX Runtime  
-**Robotics & Simulation:** ROS 2, CARLA, event extraction  
+**AI/ML:** PyTorch, Transformers, YOLO, ONNX Runtime  
+**Robotics:** ROS 2, CARLA, scene extraction  
 **DevOps:** Docker, GitHub Actions, AWS, Vercel  
-**Core Concepts:** Grounded language, RAG, intent prediction, real-time inference, structured pipelines  
-
----
-
-## 🚀 Featured Projects  
-
-#### 🔹 LCARS – LLM → Code → CARLA Simulation Pipeline  
-> **Text prompt → Python script → CARLA video**, with full reproducibility.  
-- Generates crash and near-miss scenarios using LLM-generated Python scripts.  
-- Controls weather, time-of-day, spawn points, and random seeds.  
-- Exports consistent artifacts: `scenario.txt`, `script.py`, `video.mp4`, `meta.yaml`.
-
----
-
-#### 🔹 Intentionality Prediction (Research)  
-> Understanding **why** a person acts, not just **what** they do.  
-- Early intent inference from **partial** egocentric video and step descriptions.  
-- Uses transformer models over YOLO-trimmed clips at 10/30/50/70%.  
-- Captures goals, constraints, side-effects, and safety norms.
-
----
-
-#### 🔹 Ramblytics (NexSys Labs)  
-> Privacy-first real-time meeting analytics.  
-- On-device ASR (Whisper) + diarization (PyAnnote).  
-- Topic threads, speaker timelines, and action-item summaries.  
-- CI/CD, Docker, and automated tests for reliable deployment.
-
----
-
-#### 🔹 Statusi  
-> ETL + insights platform with alerting.  
-- Pulls, cleans, and visualizes key metrics.  
-- Supports configurable thresholds and automated refresh cycles.  
-
----
-
-#### 🔹 Academic Portal (React + TS)  
-> A clean, student-centric academic hub.  
-- Built with **React + TypeScript + Tailwind**.  
-- Organizes resources, tools, and tasks in a unified UI.
 
 ---
 
@@ -133,19 +134,18 @@ I care about building systems that are:
 ---
 
 ## 🧪 Current Research Interests  
-
-- Early intent recognition for HRI  
-- LLMs for safety-critical reasoning & explanations  
-- On-device inference (quantization, streaming)  
-- Uncertainty-aware decision-making for embodied agents  
-- Benchmarks and evaluation for LLM-driven simulation  
+- Early intent recognition for embodied agents  
+- LLM reasoning under uncertainty  
+- Real-time inference (low-latency ASR + diarization)  
+- Multimodal grounding for robotics  
+- Evaluation benchmarks for LLM-driven simulation  
 
 ---
 
 ## 🌟 Thanks for Visiting!  
 
 <p align="center">
-  <em>Always happy to connect, collaborate, or brainstorm weird ideas that might just work.</em>
+  <em>Always excited to connect, collaborate, and build impactful AI systems 🤝</em>
 </p>
 
 <p align="center">
@@ -155,5 +155,5 @@ I care about building systems that are:
 </p>
 
 <p align="center">
-  🚀 <strong>Feel free to explore my repositories or reach out — let's build something cool.</strong>
+  🚀 <strong>Feel free to explore my repositories or reach out!</strong>
 </p>
