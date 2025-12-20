@@ -1,55 +1,108 @@
-# 👋 Hi, I'm Muskan Sahetai
+<h1 align="center">👋 Hi, I'm <strong>Muskan Sahetai</strong></h1>
 
-🎓 Master's in Computer Science @ UMBC | GPA: 3.4  
-📍 Baltimore, MD | ✉️ muskxn25@gmail.com | 🌐 [Portfolio](https://muskxn25.netlify.app) | 💼 [LinkedIn](https://linkedin.com/in/muskan2502)  
-🤖 Robotics & ML | 🧠 LLM Systems | 🧪 Neural Engineering | 🧰 Full-Stack/DevOps
+<p align="center">
+  <strong>Robotics & ML Researcher 🤖 | LLM Systems Engineer 🧠 | Full-Stack Developer ⚙️</strong>  
+</p>
+
+<p align="center">
+  <a href="https://linkedin.com/in/muskan2502">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:muskxn25@gmail.com">
+    <img src="https://img.shields.io/badge/Email-183153?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://muskxn25.netlify.app">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
-## 🔍 Summary
-I’m a multi-disciplinary builder working at the intersection of **robotics, ML, and language**. I design **intent-aware** systems and reproducible LLM/ML pipelines—from **early intentionality prediction** (partial video/steps) and **LLM-driven CARLA simulations**, to **privacy-first real-time agents** and observable full-stack backends.
+## 🚀 About Me  
+I'm a **multi-disciplinary builder** working at the intersection of **Robotics, Machine Learning, and Language**.  
+My work spans **intent prediction**, **LLM-driven simulation**, **real-time agents**, and **scalable full-stack systems**.
+
+I build systems that are:
+- **Reproducible**
+- **Intent-aware**
+- **Evaluation-rich**
+- **Fast + deployable in real environments**
 
 ---
 
-## 🧠 Skills & Projects Table
-| Skill Area             | Highlighted Projects                                                                                     |
-|------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Robotics Research**  | **Intentionality Prediction (in-prep):** Early goal inference from *partial* video/steps using transformer encoders + **YOLO** trimming (10/30/50/70% clips) |
-| **AI & LLM Systems**   | **LCARS (CARLA):** Two-stage LLM pipeline → prompt ➜ executable driving **scripts** ➜ videos; reproducible artifacts (scenario.txt, script.py, video.mp4, meta.yaml) |
-| **Real-Time Agents**   | **Ramblytics (NexSys Labs):** On-device **Whisper + PyAnnote**, topic threads, action-item extraction; CI/CD, Playwright/Cypress, WebSocket smoke tests |
-| **Full Stack Dev**     | [Statusi](https://github.com/muskxn25/statusi): ETL + visualization platform with alerts <br> [Academic Portal](https://github.com/muskxn25/academic-portal): Tailwind/React/TS academic hub |
-| **Data Engineering**   | RAG-Time / Product-Validator: FastAPI + React + Supabase **agentic RAG**; artifacted outputs & eval scaffolds |
-| **Neural Engineering** | EEG Cognitive-Load Detection (lightweight CNNs on public datasets); feature pipelines & evaluation |
-| **Developer Experience** | CI/CD (GitHub Actions), Dockerized services, testing harnesses (pytest, Playwright/Cypress), perf/latency checks |
+## 🧠 Skills & Project Highlights
+
+### 🤖 Robotics + Intent Prediction
+- **Intentionality Dataset (in-prep):** Infer human goals from partial video/steps (10/30/50/70%) using **transformer encoders + YOLO scene trimming**.
+- Grounded language understanding + multimodal alignment for HRI.
+
+### 🛣️ LLM x Autonomous Driving (CARLA)
+- **LCARS Pipeline:**  
+  LLM Prompt ➜ Python Simulation Script ➜ Reproducible CARLA Crash Video  
+  Generates **scenario.txt, script.py, video.mp4, meta.yaml** for every run.
+
+### 🎧 Real-Time Agents
+- **Ramblytics (NexSys Labs):**  
+  On-device **Whisper + PyAnnote** pipeline for live diarization, topic threading, and action-item mining.
+
+### 🖥️ Full Stack / DevOps
+- ETL + visualization systems  
+- Testing harnesses (Playwright/Cypress)  
+- Dockerized microservices with CI/CD (GitHub Actions)
 
 ---
 
 ## 💼 Tech Stack
+
 **Languages:** Python, TypeScript, SQL, JavaScript, R  
 **Frameworks:** FastAPI, React, Next.js, Flask, Express  
-**Databases:** PostgreSQL, MongoDB, Snowflake, Redis  
-**AI/ML:** PyTorch, Transformers, scikit-learn, OpenCV, **YOLO**, ONNX Runtime  
-**Robotics:** **ROS 2**, perception pipelines, real-time streaming  
-**Cloud & Tools:** Docker, GitHub Actions, AWS, Vercel  
-**Core Concepts:** Grounded Language, Intent Prediction, RAG, NLP, QA Systems, ETL Pipelines, Vector DBs, Prompt Engineering
+**AI/ML:** PyTorch, Transformers, OpenCV, YOLO, ONNX Runtime  
+**Robotics:** ROS 2, CARLA, event extraction  
+**DevOps:** Docker, GitHub Actions, AWS, Vercel  
+**Core Concepts:** Grounded language, RAG, intent prediction, real-time inference, structured pipelines  
 
 ---
 
-## 🚀 Notable Live Projects
-- 🔹 **[Statusi](https://github.com/muskxn25/statusi)** – Marketing insights platform with alert thresholds & ETL automation  
-- 🔹 **[LLMStack UI Builder](https://github.com/muskxn25/llmstack-ui-builder)** – Multi-agent LLM orchestration simulator  
-- 🔹 **[Academic Portal](https://github.com/muskxn25/academic-portal)** – Tailwind + React based university tool  
-- 🔹 **[Real-Time Analytics Dashboard](https://github.com/muskxn25/real-time-chatbot-dashboard)** – Real-time bot monitoring using Dash  
-- 🔹 **LCARS (CARLA)** – LLM prompt → code → video pipeline with reproducible artifacts *(repo link coming soon)*  
-- 🔹 **Ramblytics (NexSys Labs)** – Privacy-first live notes (on-device ASR/diarization + topics) *(demo write-up coming soon)*
+## 🚀 Featured Projects
+
+🔹 **LCARS – LLM → Code → CARLA Simulation Pipeline**  
+Generate crash scenarios with full reproducibility (seeded, structured, artifacted).
+
+🔹 **Intentionality Prediction (Research)**  
+Early intent inference from partial observations with temporal and multimodal reasoning.
+
+🔹 **Ramblytics (NexSys Labs)**  
+Real-time meeting analytics with diarization, segmentation, action-item tracking.
+
+🔹 **Statusi**  
+ETL + insights platform with alert thresholds and automated refresh cycles.
+
+🔹 **Academic Portal (React + TS)**  
+University dashboard with cleaner UX and resource management.
 
 ---
 
-## 🧪 Currently Exploring
-- Early **intent recognition** and uncertainty-aware action selection for HRI  
-- LLMs for **safety-critical** reasoning (evaluation harnesses & red-team patterns)  
-- Efficient **on-device** inference (quantization, streaming, graceful degradation)
+## ✨ Animated Stats
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=muskxn25&theme=tokyonight" alt="GitHub Streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=muskxn25&show_icons=true&theme=tokyonight" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muskxn25&layout=compact&theme=tokyonight" height="170"/>
+</p>
 
 ---
 
-Thanks for stopping by! Feel free to explore my repos or connect with me ✨
+## 🧪 Current Research Interests
+- Early intent recognition for HRI  
+- LLMs for safety-critical reasoning  
+- On-device inference (quantization, streaming)  
+- Uncertainty-aware decision-making  
+
+---
+
+## 🌟 Thanks for Visiting!
+
+Feel free to explore my repositories or reach out — always excited to collaborate 🚀  
